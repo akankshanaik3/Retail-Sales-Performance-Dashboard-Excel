@@ -1,54 +1,157 @@
 # 📊 Retail Sales Performance Dashboard | Microsoft Excel
 
-## 📌 Project Overview
-
-This project is an interactive Retail Sales Performance Dashboard built using Microsoft Excel. It helps analyze sales performance across different regions, products, payment modes, and delivery statuses using dynamic KPIs, Pivot Tables, Pivot Charts, and Slicers.
+An interactive Retail Sales Performance Dashboard built using **Microsoft Excel** to analyze sales performance across different regions, products, payment methods, and delivery statuses. The dashboard provides business insights through dynamic KPIs, Pivot Tables, Pivot Charts, and Slicers, enabling users to explore sales data interactively.
 
 ---
 
-## 🛠️ Tools Used
+## 📷 Dashboard Preview
+
+![Retail Sales Dashboard](Images/Dashboard.png)
+
+---
+
+# 📌 Project Overview
+
+This project demonstrates how Microsoft Excel can be used to transform raw sales data into an interactive business dashboard. The dashboard enables users to monitor key business metrics, identify sales trends, compare regional performance, analyze product sales, and evaluate payment methods using interactive filters.
+
+---
+
+# 🎯 Business Objective
+
+The objective of this project is to help business users:
+
+- Monitor overall sales performance
+- Track profit and profit margin
+- Analyze regional sales
+- Identify top-selling products
+- Understand customer purchasing patterns
+- Monitor delivery status
+- Filter reports dynamically using slicers
+
+---
+
+# 🛠️ Tools & Features Used
 
 - Microsoft Excel
+- XLOOKUP
+- IF Functions
+- Data Validation
+- Excel Tables
 - Pivot Tables
 - Pivot Charts
-- XLOOKUP
 - Slicers
 - Conditional Formatting
-- Data Validation
+- Dashboard Design
 
 ---
 
-## ✨ Dashboard Features
+# 📂 Dataset Information
 
-- Interactive Dashboard
-- Dynamic KPI Cards
-- Product-wise Sales Analysis
-- Region-wise Sales Analysis
-- Monthly Sales Trend
-- Payment Mode Analysis
-- Delivery Status Analysis
-- Interactive Filtering using Slicers
+The dashboard is built using a custom retail sales dataset containing approximately **1,000 sales records**.
 
----
+### Master Tables
 
-## 📈 Key Performance Indicators (KPIs)
+- Product Master
+- Customer Master
+- Location Master
+- Salesperson Master
+- Payment Mode Master
+- Delivery Status Master
 
+### Sales Data Includes
+
+- Order Date
+- Product
+- Category
+- Customer
+- City
+- State
+- Region
+- Salesperson
+- Payment Mode
+- Delivery Status
+- Quantity
+- Unit Price
+- Cost Price
 - Total Sales
-- Total Profit
-- Total Orders
-- Total Customers
-- Average Order Value
-- Profit Margin
+- Total Cost
+- Profit
 
 ---
 
-## 📊 Dashboard Preview
+# 📈 Key Performance Indicators (KPIs)
 
-![Dashboard](Images/Dashboard.png)
+The dashboard provides the following KPIs:
+
+- 💰 Total Sales
+- 💵 Total Profit
+- 📦 Total Orders
+- 👥 Unique Customers
+- 📊 Average Order Value
+- 📈 Profit Margin
 
 ---
 
-## 📂 Project Structure
+# 📊 Dashboard Features
+
+- Interactive KPI Cards
+- Monthly Sales Trend
+- Sales by Region
+- Top Products by Sales
+- Orders by Payment Mode
+- Delivery Status Overview
+- Dynamic Slicers for filtering data
+- Professional dashboard layout
+
+---
+
+# 💡 Business Insights
+
+The dashboard helps answer important business questions such as:
+
+- Which region generates the highest sales?
+- Which products contribute the most revenue?
+- What is the monthly sales trend?
+- Which payment methods are most frequently used?
+- What percentage of orders are successfully delivered?
+- What is the overall profit margin?
+
+---
+
+# 🔄 Dashboard Workflow
+
+1. Created master tables
+2. Generated sales dataset
+3. Applied Data Validation
+4. Used XLOOKUP to retrieve master data
+5. Calculated Total Sales, Total Cost, and Profit
+6. Cleaned and organized the dataset
+7. Built Pivot Tables
+8. Created Pivot Charts
+9. Designed KPI Cards
+10. Connected Slicers for interactive filtering
+11. Built the final dashboard
+
+---
+
+# 🧠 Skills Demonstrated
+
+- Data Cleaning
+- Data Preparation
+- Data Analysis
+- Data Visualization
+- Dashboard Design
+- Business Analysis
+- Excel Automation
+- XLOOKUP
+- Pivot Tables
+- Pivot Charts
+- Data Validation
+- KPI Development
+
+---
+
+# 📁 Project Structure
 
 ```
 Retail-Sales-Performance-Dashboard-Excel
@@ -64,31 +167,22 @@ Retail-Sales-Performance-Dashboard-Excel
 
 ---
 
-## 🚀 Skills Demonstrated
+# 🚀 Future Enhancements
 
-- Data Cleaning
-- Data Preparation
-- Excel Formulas
-- XLOOKUP
-- Pivot Tables
-- Pivot Charts
-- Dashboard Design
-- Data Visualization
-- Business Analysis
+- Add Year-over-Year comparison
+- Add dynamic KPI trend indicators
+- Include forecasting charts
+- Build a Power BI version of the dashboard
+- Automate data refresh using Power Query
 
 ---
 
-## 📌 Future Enhancements
-
-- Add dynamic trend indicators
-- Add conditional KPI colors
-- Add forecasting
-- Build Power BI version
-
----
-
-## 👩‍💻 Author
+# 👩‍💻 About Me
 
 **Akanksha Naik**
 
-Aspiring Data Analyst | Excel | SQL | Power BI | Python
+Aspiring Data Analyst passionate about transforming data into actionable business insights using Excel, SQL, Power BI, and Python.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a star!
